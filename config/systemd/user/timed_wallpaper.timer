@@ -1,0 +1,11 @@
+[Unit]
+Description=Run timed_wallpaper every 10 minutes
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=10min
+Persistent=true
+Unit=timed_wallpaper.service
+
+[Install]
+WantedBy=timers.target

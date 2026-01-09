@@ -1,0 +1,52 @@
+Record of my custom keybinds/useful motions:
+
+
+
+Custom Keybinds:
+    
+    These are my custom keybinds, also you can look at keymaps.lua for the actual code. The leader key is space right now.
+
+        <Space>w    - Write to file.
+        <Space>q    - Quit current editor.
+
+        jj          - Return to normal mode from insert. Have to type this quickly to trigger.
+        <Space>n    - Cycle to prev buffer.
+        <Space>m    - Cycle to next buffer.
+
+        <Space>h    - Focus on left window.
+        <Space>l    - Focus on right window.
+        <Space>k    - Focus on up window.
+        <Space>j    - Focus on down window.
+
+Useful motions:
+    
+    I would like to keep notes on how these all work, not just random commands but notes on how parts of a command function together:
+
+        "+p         - This pastes from the system clipboard.
+	    ggdG	    - This deletes whole file. gg takes cursor to start of file. Need to figure out what dG does exactly.
+        G           - Take cursor to end of file.
+        gg"+yG      - Copies entire file into system clipboard. gg goes to file start, "+ is sys clipbaord register, y yanks, G takes to end of file.
+
+    Navigation motions:
+        
+        0           - Beginning of current line.
+        $           - End of current line.
+        e           - Move to back of current word.
+        Ctrl-d      - half-page down
+        Ctre-u      - half-page up
+        Ctrl-f      - full page forward
+        Ctrl-b      - full page backward        
+        :20         - Move to line 20
+
+    Buffer Motions:
+        
+        :b <file_name>      - Pulls up file_name in current window. Buffer must already be open
+        :bn                 - Pulls up next buffer in the current window.       I am most likely going to make a keybind for this.
+        :bp                 - Goes to previous buffer.
+        :b <num>            - Goes to buffer with this number.
+        :bd                 - Closes buffer in current window. This is kinda wonky. Not sure that I love this.
+
+
+    Tmux Binds:
+
+        
