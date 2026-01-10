@@ -10,6 +10,7 @@ return {
             vim.keymap.set("n", "<leader>f", builtin.current_buffer_fuzzy_find, {})
             vim.keymap.set("n", "<leader>g", vim.lsp.buf.definition, {})
 
+
             -- Function for searching and scoping into a directory
             function search_and_scope_into_directory()
                 builtin.find_files({
