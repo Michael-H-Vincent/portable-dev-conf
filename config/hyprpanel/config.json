@@ -1,9 +1,9 @@
 {
-  "theme.bar.transparent": true,
+  "theme.bar.transparent": false,
   "theme.bar.background": "#232634",
   "theme.font.label": "Ubuntu Nerd Font Propo Bold",
   "menus.clock.weather.enabled": true,
-  "menus.clock.weather.location": "Prayagraj",
+  "menus.clock.weather.location": "Phoenix",
   "theme.bar.menus.monochrome": false,
   "theme.bar.menus.menu.notifications.scrollbar.color": "#babbf1",
   "theme.bar.menus.menu.notifications.pager.label": "#949cbb",
@@ -331,7 +331,7 @@
   "theme.bar.buttons.icon_background": "#303446",
   "theme.bar.buttons.background": "#303446",
   "theme.bar.buttons.borderColor": "#babbf1",
-  "theme.bar.buttons.style": "default",
+  "theme.bar.buttons.style": "wave",
   "theme.osd.label": "#babbf1",
   "theme.osd.icon": "#232634",
   "theme.osd.bar_overflow_color": "#e78284",
@@ -410,7 +410,7 @@
   "bar.battery.hideLabelWhenFull": false,
   "bar.clock.showIcon": true,
   "bar.clock.showTime": true,
-  "bar.media.show_active_only": false,
+  "bar.media.show_active_only": true,
   "wallpaper.pywal": true,
   "wallpaper.enable": true,
   "menus.dashboard.powermenu.avatar.image": "/home/calc/Pictures/racoon.png",
@@ -446,5 +446,11 @@
   "bar.customModules.storage.paths": [
     "/"
   ],
-  "bar.network.truncation_size": 15
+  "bar.network.truncation_size": 15,
+  "menus.dashboard.shortcuts.left.shortcut1.tooltip": "Firefox",
+  "theme.bar.buttons.modules.weather.enableBorder": false,
+  "menus.power.lowBatteryNotificationText": "Plug yo shit in",
+  "theme.bar.buttons.network.enableBorder": false,
+  "theme.bar.opacity": 60,
+  "theme.bar.buttons.opacity": 100
 }
