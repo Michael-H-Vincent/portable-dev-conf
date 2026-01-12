@@ -54,6 +54,9 @@ Navigation Motions to remember: (i will delete and replace these once i have the
         f{char}     find char on that line use ; to repeat (prolly wont use that part)
         t{char}     ^same thing but one before that char 
         /<pattern>      searches for that pattern use n/N for next/prev
+        :noh        gets ride of highlights from /pattern^
+
+        s       change character under cursor
 
 Useful motions:
 
