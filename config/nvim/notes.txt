@@ -3,6 +3,7 @@ Record of my custom keybinds/useful motions:
 
 
 Custom Keybinds:
+
     
     These are my custom keybinds for normal neovim features.
 
@@ -43,12 +44,27 @@ Custom Keybinds:
 		gc			(comments linewise) --in visual
 		gb			(comments blockwise) --in visual
 		
-        
+Navigation Motions to remember: (i will delete and replace these once i have them down)
 
-        
+        W (or W/E)  does the same thing as w/e/b but goes by spaces
+      
+        H (L/M)     move cursor to high, low, middle.
+        zt (zb/zz)  reposition cursor and keep line same
+
+        f{char}     find char on that line use ; to repeat (prolly wont use that part)
+        t{char}     ^same thing but one before that char 
+        /<pattern>      searches for that pattern use n/N for next/prev
 
 Useful motions:
-    
 
+
+        :%s/old/new/gc      (does find and replace for whole file
+                             g means it does all instances on the
+                             line and c requires confirmation)
+
+        :.,$s/old/new/gc    (does find and replace from current line
+                             to end of file, same gc meanings)
+    
+        
 
         
