@@ -43,3 +43,24 @@ opt.splitbelow = true  -- Horizontal splits open below
 -- ========== Misc ==========
 opt.hidden = true      -- Allow switching buffers without saving
 opt.wrap = false       -- Don’t wrap long lines by default
+
+
+
+vim.opt.autoread = true
+
+vim.api.nvim_create_autocmd(
+  { "FocusGained", "BufEnter", "CursorHold", "CursorHoldI" },
+  {
+    pattern = "*",
+    callback = function()
+      if vim.fn.mode() ~= "c" then
+        vim.cmd("checktime")
+      end
+    end,
+  }
+)
+
+vim.api.nvim_create_autocmd("FileChangedShellPost", {
+  pattern = "*",
+  command = 'echohl WarningMsg | echo "File changed on disk. Buffer reloaded." | echohl None',
+})
