@@ -1,4 +1,4 @@
-#!/bin/bash
+# #!/bin/bash
 set -euo pipefail
 
 # Directory containing your wallpapers (set this to your folder)
@@ -20,6 +20,7 @@ if [[ -z "${WALLPAPER:-}" ]]; then
 fi
 
 # Preload and set the wallpaper
-hyprctl hyprpaper preload "$WALLPAPER"
+echo 1
 hyprctl hyprpaper wallpaper "$MONITOR,$WALLPAPER"
-hyprctl hyprpaper unload unused
+echo 2
+

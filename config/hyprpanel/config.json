@@ -451,6 +451,6 @@
   "theme.bar.buttons.modules.weather.enableBorder": false,
   "menus.power.lowBatteryNotificationText": "Plug yo shit in",
   "theme.bar.buttons.network.enableBorder": false,
-  "theme.bar.opacity": 60,
+  "theme.bar.opacity": 0,
   "theme.bar.buttons.opacity": 100
 }
