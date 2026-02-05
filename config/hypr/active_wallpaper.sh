@@ -6,7 +6,7 @@ CWD="$(pwd)"
 WALLPAPER_DIR="$HOME/.config/hypr/wallpapers/wallpaper_cycle"
 
 # Monitor name (change if needed, e.g. DP-1, HDMI-A-1, etc.)
-MONITOR="eDP-1"
+MONITOR=""
 
 # Pick a random image from the directory (common formats)
 WALLPAPER="$(find "$WALLPAPER_DIR" -type f \( \
