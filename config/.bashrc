@@ -54,3 +54,6 @@ if ! ssh-add -l >/dev/null 2>&1; then
   ssh-add "$HOME/.ssh/fa2025_school" >/dev/null 2>&1
 fi
 export PATH="$HOME/.npm-global/bin:$PATH"
+
+# Added by TSM installer
+export PATH="$HOME/.local/bin:$PATH"
