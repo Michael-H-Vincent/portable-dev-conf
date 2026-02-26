@@ -22,7 +22,7 @@ return {
                 untracked    = { text = '┆' },
             },
             signs_staged_enable = true,
-            signcolumn = false,  -- start with signs hidden
+            signcolumn = true,   -- show git signs in the sign column
             numhl      = false,
             linehl     = false,
             word_diff  = false,
